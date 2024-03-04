@@ -1,6 +1,6 @@
 //const HOSTNAME = "http://localhost:8080/";
-const HOSTNAME = "http://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:443/";
-
+// const HOSTNAME = "https://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:443/";
+const HOSTNAME = "http://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:80/";
 const PARSELINK = HOSTNAME + "fights";
 const PREDICTLINK = HOSTNAME + "predictions";
 const FIGHTLINK = HOSTNAME + "savedfights";
@@ -108,6 +108,7 @@ Vue.createApp({
 			fights: [],
 			changedFights: [],
 			errors: {},
+			csvLink: HOSTNAME + "datasets",
 
 			rFighter: {
 				link: "",

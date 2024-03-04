@@ -4,10 +4,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="color-scheme" content="light dark" />
-		<meta
-			http-equiv="Content-Security-Policy"
-			content="upgrade-insecure-requests"
-		/>
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
@@ -640,11 +636,7 @@
 					<h2 id="history-header">Prediction History</h2>
 				</div>
 				<div class="center-top-history">
-					<a
-						href="http://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:443/datasets"
-						type="text/csv"
-						download="data.csv"
-					>
+					<a :href="csvLink" type="text/csv" download="data.csv">
 						<button class="contrast" id="export-button">Export to CSV</button>
 					</a>
 				</div>
