@@ -1,7 +1,5 @@
-// const HOSTNAME = "http://localhost:8080/";
-// const HOSTNAME = "http://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:8080/"
-
-const HOSTNAME = "https://t6lkgu9mmg.execute-api.us-east-2.amazonaws.com/"
+//const HOSTNAME = "http://localhost:8080/";
+const HOSTNAME = "http://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:8080/"
 
 const PARSELINK = HOSTNAME + "fights";
 const PREDICTLINK = HOSTNAME + "predictions";
