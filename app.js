@@ -1,6 +1,15 @@
+
+// local
 //const HOSTNAME = "http://localhost:8080/";
+//
+//aws https
 // const HOSTNAME = "https://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:443/";
-const HOSTNAME = "http://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:80/";
+//
+// aws http
+// const HOSTNAME = "http://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:80/";
+//
+// aws api
+const HOSTNAME = "https://ihjo7nf1ac.execute-api.us-east-2.amazonaws.com/";
 const PARSELINK = HOSTNAME + "fights";
 const PREDICTLINK = HOSTNAME + "predictions";
 const FIGHTLINK = HOSTNAME + "savedfights";
