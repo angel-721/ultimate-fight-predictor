@@ -109,6 +109,7 @@ Vue.createApp({
 			fights: [],
 			changedFights: [],
 			errors: {},
+			csvLink: HOSTNAME + "datasets",
 
 			rFighter: {
 				link: "",
