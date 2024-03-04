@@ -620,13 +620,26 @@
 						main features are:
 					</p>
 					<ul>
+						<li>The ultimate tool for making mixed martial arts datasets!</li>
 						<li>
-							Predicting UFC fight outcomes by inputing the information asked
-							for
+							Predict the outcomes of mixed martial arts bouts between two
+							fighters!
+						</li>
+						<li>Get two links from <a href="tapology.com">tapology.com</a></li>
+						<li>
+							Logging the history of predictions. Predictions can be removed and
+							altered to change your dataset.
+						</li>
+						<li>Two example links</li>
+						<li>
+							https://www.tapology.com/fightcenter/fighters/34779-jiri-prochazka
 						</li>
 						<li>
-							Logging the history of predictions and measuring the success of
-							the model
+							https://www.tapology.com/fightcenter/fighters/55658-john-allan
+						</li>
+						<li>
+							FUN FACT: There is around 2405 lines of code across 9 files for
+							this site
 						</li>
 					</ul>
 				</article>
@@ -636,11 +649,7 @@
 					<h2 id="history-header">Prediction History</h2>
 				</div>
 				<div class="center-top-history">
-					<a
-						:href="csvLink"
-						type="text/csv"
-						download="data.csv"
-					>
+					<a :href="csvLink" type="text/csv" download="data.csv">
 						<button class="contrast" id="export-button">Export to CSV</button>
 					</a>
 				</div>
