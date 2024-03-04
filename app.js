@@ -1,5 +1,6 @@
-const HOSTNAME = "http://localhost:8080/";
+// const HOSTNAME = "http://localhost:8080/";
 // const HOSTNAME = "http://ec2-13-57-24-150.us-west-1.compute.amazonaws.com:8080/"
+const HOSTNAME = "ufp-backend-production.up.railway.app/"
 
 const PARSELINK = HOSTNAME + "fights";
 const PREDICTLINK = HOSTNAME + "predictions";
